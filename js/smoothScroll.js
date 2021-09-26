@@ -1,6 +1,6 @@
 const linksHead = document.querySelectorAll('.menu-list__link');
 const mainScroll = document.querySelector('.main__scroll');
-const newArray = [...linksHead, mainScroll];  // спред оператор
+const newArray = [...linksHead, mainScroll];  // спред оператор объединили элементы массивов
 
 newArray.forEach(link => {
   link.addEventListener('click', (event) => {
