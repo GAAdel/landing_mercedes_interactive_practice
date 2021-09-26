@@ -11,7 +11,7 @@ for(let btn of tabsHandlerElems) {
     // console.dir(btn.dataset.tabsHandler);  // работа с data атрибутом
 
     tabsContentElems.forEach(content => {
-      if(content.dataset.tabsField === btn.dataset.tabsHandler) {
+      if(content.dataset.tabsField === btn.dataset.tabsHandler) {   // стучим к значению data атрибута
         content.classList.remove('hidden');
       } else {
         content.classList.add('hidden');

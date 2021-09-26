@@ -4,8 +4,11 @@ const newArray = [...linksHead, mainScroll];  // спред оператор о�
 
 newArray.forEach(link => {
   link.addEventListener('click', (event) => {
-    event.preventDefault();
-    const ID = event.target.getAttribute('href').substr(1);
-    document.getElementById(ID).scrollIntoView({behavior: 'smooth', block: 'start'});
+    event.preventDefault();                                   // убираем стандартное взаимодействие
+    const ID = event.target.getAttribute('href').substr(1);    // получаем атрибут href ссылки через свойство attributes(getAttribute)
+    document.getElementById(ID).scrollIntoView({            // находим нужный ID и прокручиваем
+      behavior: 'smooth', 
+      block: 'start'
+    }); 
   })
 })
