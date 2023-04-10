@@ -1,6 +1,6 @@
 # Mercedes A200 Promo page
 
-[Project](https://gaadel.github.io/landing_mercedes_interactive_JS_practice/index.html)
+[Project](https://cikadaweb.github.io/landing_mercedes_interactive_JS_practice/)
 
 #### Promo page of the new Mercedes model.
 * smooth scrolling
